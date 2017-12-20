@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     34388,        800]
-NotebookOptionsPosition[     33631,        776]
-NotebookOutlinePosition[     33975,        791]
-CellTagsIndexPosition[     33932,        788]
+NotebookDataLength[     34425,        798]
+NotebookOptionsPosition[     33668,        774]
+NotebookOutlinePosition[     34012,        789]
+CellTagsIndexPosition[     33969,        786]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,31 +24,30 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"(*", 
    RowBox[{"Crank", "-", 
-    RowBox[{"Nicolson", " ", "Method"}]}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"Nicolson", " ", "Method"}]}], " ", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
-    RowBox[{"\[Alpha]", "=", ".5"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{
+    RowBox[{"\[Alpha]", "=", ".5"}], ";", " ", 
+    RowBox[{"(*", " ", 
      RowBox[{
       RowBox[{
-      "IN", " ", "ORDER", " ", "TO", " ", "SEE", " ", "PLOT", " ", "FOR", " ",
-        "\[Lambda]"}], " ", "=", " ", ".35"}], ",", " ", ".4", ",", " ", 
-     ".45", ",", " ", ".5", ",", " ", 
-     RowBox[{
-      RowBox[{".55", " ", "JUST", " ", "SET", " ", "\[Alpha]"}], " ", "=", 
-      " ", 
-      RowBox[{"TO", " ", "DESIRED", " ", "\[Lambda]"}]}]}], " ", "*)"}], 
-   "\[IndentingNewLine]", "\t    ", 
-   RowBox[{"(*", " ", 
-    RowBox[{
-     RowBox[{
-      RowBox[{"NOTICE", " ", "THAT", " ", "FOR", " ", "\[Lambda]"}], " ", ">",
+       RowBox[{
+       "IN", " ", "ORDER", " ", "TO", " ", "SEE", " ", "PLOT", " ", "FOR", 
+        " ", "\[Lambda]"}], " ", "=", " ", ".35"}], ",", " ", ".4", ",", " ", 
+      ".45", ",", " ", ".5", ",", " ", 
+      RowBox[{
+       RowBox[{".55", " ", "JUST", " ", "SET", " ", "\[Alpha]"}], " ", "=", 
        " ", 
-      FractionBox["1", "2"]}], ",", " ", 
-     RowBox[{"THE", " ", "APPROXIMATION", " ", "REMAINS", " ", "STABLE"}]}], 
-    "*)"}], "\[IndentingNewLine]", 
-   RowBox[{
+       RowBox[{"TO", " ", "DESIRED", " ", "\[Lambda]"}]}]}], " ", "*)"}], 
+    "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NOTICE", " ", "THAT", " ", "FOR", " ", "\[Lambda]"}], " ", 
+       ">", " ", 
+       FractionBox["1", "2"]}], ",", " ", 
+      RowBox[{"THE", " ", "APPROXIMATION", " ", "REMAINS", " ", "STABLE"}]}], 
+     "*)"}], "\[IndentingNewLine]", 
     RowBox[{"\[CapitalDelta]x", "=", ".1"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"\[CapitalDelta]t", "=", ".01"}], ";"}], "\[IndentingNewLine]", 
@@ -70,14 +69,13 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"u", "=", 
-     RowBox[{"{", "}"}]}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{
-    "the", " ", "u", " ", "vector", " ", "holds", " ", "the", " ", 
-     "temperature", " ", "at", " ", "each", " ", 
-     SubscriptBox["x", "i"], " ", "during", " ", "a", " ", "given", " ", 
-     "t"}], "*)"}], "\[IndentingNewLine]", 
-   RowBox[{
+     RowBox[{"{", "}"}]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+     "the", " ", "u", " ", "vector", " ", "holds", " ", "the", " ", 
+      "temperature", " ", "at", " ", "each", " ", 
+      SubscriptBox["x", "i"], " ", "during", " ", "a", " ", "given", " ", 
+      "t"}], "*)"}], "\[IndentingNewLine]", 
     RowBox[{"x", " ", "=", " ", 
      RowBox[{"{", "}"}]}], ";", " ", 
     RowBox[{"(*", " ", 
@@ -419,16 +417,16 @@ Cell[BoxData[
     RowBox[{"Plot", " ", "ratio", " ", "of", " ", "the", " ", "moduli"}], " ",
      "*)"}]}]}]], "Input",
  CellChangeTimes->{{3.718993003183339*^9, 3.7189930811866474`*^9}, {
-  3.7189932196385217`*^9, 3.7189933362905827`*^9}, {3.718993389383321*^9, 
-  3.7189934391067257`*^9}, {3.7189935043497066`*^9, 3.718993592078957*^9}, {
-  3.7189936779529366`*^9, 3.7189936933223886`*^9}, {3.7189937391048985`*^9, 
-  3.7189937437212825`*^9}, {3.718993819963628*^9, 3.7189938643728933`*^9}, {
-  3.7189939076486483`*^9, 3.7189939098335857`*^9}, {3.718994035185948*^9, 
-  3.718994037179285*^9}, {3.7189940913194265`*^9, 3.7189940976225457`*^9}, {
-  3.7189941737724457`*^9, 3.7189942004244127`*^9}, {3.7189943519515276`*^9, 
-  3.7189943578708825`*^9}, {3.7189950149070263`*^9, 3.718995261625495*^9}, {
-  3.718995294589697*^9, 
-  3.7189953513675604`*^9}},ExpressionUUID->"b53413c3-c519-47b1-9a80-\
+   3.7189932196385217`*^9, 3.7189933362905827`*^9}, {3.718993389383321*^9, 
+   3.7189934391067257`*^9}, {3.7189935043497066`*^9, 3.718993592078957*^9}, {
+   3.7189936779529366`*^9, 3.7189936933223886`*^9}, {3.7189937391048985`*^9, 
+   3.7189937437212825`*^9}, {3.718993819963628*^9, 3.7189938643728933`*^9}, {
+   3.7189939076486483`*^9, 3.7189939098335857`*^9}, {3.718994035185948*^9, 
+   3.718994037179285*^9}, {3.7189940913194265`*^9, 3.7189940976225457`*^9}, {
+   3.7189941737724457`*^9, 3.7189942004244127`*^9}, {3.7189943519515276`*^9, 
+   3.7189943578708825`*^9}, {3.7189950149070263`*^9, 3.718995261625495*^9}, {
+   3.718995294589697*^9, 3.7189953513675604`*^9}, 
+   3.7227807678463984`*^9},ExpressionUUID->"b53413c3-c519-47b1-9a80-\
 8805ef586012"],
 
 Cell[BoxData[
@@ -791,15 +789,15 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 15631, 409, 1670, "Input", "ExpressionUUID" -> \
+Cell[580, 22, 15668, 407, 1670, "Input", "ExpressionUUID" -> \
 "b53413c3-c519-47b1-9a80-8805ef586012"],
-Cell[16214, 433, 358, 9, 22, "Print", "ExpressionUUID" -> \
+Cell[16251, 431, 358, 9, 22, "Print", "ExpressionUUID" -> \
 "a27aae2d-a9cb-4d5b-9abe-1ec9accbe90d"],
-Cell[16575, 444, 8946, 163, 260, "Output", "ExpressionUUID" -> \
+Cell[16612, 442, 8946, 163, 260, "Output", "ExpressionUUID" -> \
 "d911d387-75ae-41ec-b227-78400ed6cf7b"],
-Cell[25524, 609, 4156, 83, 249, "Output", "ExpressionUUID" -> \
+Cell[25561, 607, 4156, 83, 249, "Output", "ExpressionUUID" -> \
 "fa85c284-7af2-4ef4-bae1-554fa651e5d1"],
-Cell[29683, 694, 3932, 79, 237, "Output", "ExpressionUUID" -> \
+Cell[29720, 692, 3932, 79, 237, "Output", "ExpressionUUID" -> \
 "a3e66d7f-316a-4e39-a7f0-f52f24b8dfb4"]
 }, Open  ]]
 }

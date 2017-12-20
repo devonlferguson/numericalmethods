@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29724,        672]
-NotebookOptionsPosition[     28968,        648]
-NotebookOutlinePosition[     29311,        663]
-CellTagsIndexPosition[     29268,        660]
+NotebookDataLength[     29754,        672]
+NotebookOptionsPosition[     28998,        648]
+NotebookOutlinePosition[     29341,        663]
+CellTagsIndexPosition[     29298,        660]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,8 +24,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"(*", 
    RowBox[{
-    RowBox[{"Problem", " ", "#1"}], ",", " ", "#2", ",", " ", "#3"}], "*)"}], 
-  "\[IndentingNewLine]", 
+    RowBox[{"Problem", " ", "#1"}], ",", " ", "#2", ",", " ", "#3"}], " ", 
+   "*)"}], "\[IndentingNewLine]", 
   RowBox[{"(*", " ", 
    RowBox[{
     RowBox[{"For", " ", "problem", " ", "#2"}], ",", " ", 
@@ -377,8 +377,8 @@ Cell[BoxData[
    3.718558855106675*^9}, {3.718559328915184*^9, 3.7185593994309115`*^9}, {
    3.71856001208134*^9, 3.7185600361109457`*^9}, {3.7185600890447702`*^9, 
    3.7185600951388383`*^9}, {3.7189952826562386`*^9, 
-   3.7189952878626604`*^9}, {3.718995375604584*^9, 
-   3.718995395670676*^9}},ExpressionUUID->"5967dff2-af0e-48c8-93c5-\
+   3.7189952878626604`*^9}, {3.718995375604584*^9, 3.718995395670676*^9}, 
+   3.7227807620954876`*^9},ExpressionUUID->"5967dff2-af0e-48c8-93c5-\
 63be553a6d63"],
 
 Cell[BoxData[
@@ -663,15 +663,15 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 15586, 359, 1394, "Input", "ExpressionUUID" -> \
+Cell[580, 22, 15616, 359, 1394, "Input", "ExpressionUUID" -> \
 "5967dff2-af0e-48c8-93c5-63be553a6d63"],
-Cell[16169, 383, 323, 7, 22, "Print", "ExpressionUUID" -> \
+Cell[16199, 383, 323, 7, 22, "Print", "ExpressionUUID" -> \
 "180b9ecd-b683-472e-a172-d75a100ba26b"],
-Cell[16495, 392, 6078, 115, 260, "Output", "ExpressionUUID" -> \
+Cell[16525, 392, 6078, 115, 260, "Output", "ExpressionUUID" -> \
 "d245c542-7a8f-4f93-bbdf-85f435cc560f"],
-Cell[22576, 509, 3249, 68, 229, "Output", "ExpressionUUID" -> \
+Cell[22606, 509, 3249, 68, 229, "Output", "ExpressionUUID" -> \
 "72acddfc-fa34-4327-af44-3873d9824abd"],
-Cell[25828, 579, 3124, 66, 242, "Output", "ExpressionUUID" -> \
+Cell[25858, 579, 3124, 66, 242, "Output", "ExpressionUUID" -> \
 "cb796511-bedf-4bf4-9bac-da27ca60202d"]
 }, Open  ]]
 }
